@@ -1,0 +1,62 @@
+.green {
+    color: #42C744; 
+}
+
+body {
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cat {
+   background-color: #7C3EF0; 
+   margin: 0.5em;
+   padding: 1em;
+   border-radius: 1em;
+   flex: 1;
+}
+
+a {
+    color: #1EEB22;
+}
+
+#afooter {
+    color: #42C744;
+}
+
+.form {
+    background-color: #F04A7F;
+}
+
+img {
+    border-radius: 10px;
+    width: 260px; 
+    height: 260px; 
+    object-fit: cover; 
+    object-position: 100% 0;
+}
+
+@media (min-width: 960px) {
+    .cats {
+        display: flex;
+    }
+}
+
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+
+input {
+    border-radius: 15px;
+    padding: 0.5em;
+    border: 0;
+    margin-left: 25px;
+}
+
+button {
+    padding: 0.5em;
+    border-radius: 15px;
+    border: 0;
+    background-color: #42C744;
+    color: white
+}
